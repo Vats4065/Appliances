@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+#parent {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+#parent div img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+#parent div{
+    background-color: rgb(245, 249, 252);
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c5bcbc;
+    text-align: center;
+}
+
+.box{
+    font-weight: 700;   
+}
+
+
+.box button{
+    margin-bottom: 10px;
+}
+
+nav #nav{
+    background-color: aqua;
+}

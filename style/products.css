@@ -1,21 +1,49 @@
-.box1{
+.box1 {
     width: 20%;
     height: 100vh;
     border: 1px solid black;
 }
-.box2{
+
+.box2 {
     width: 80%;
-    height:100vh;
+    height: 100vh;
     border: 1px solid black;
 }
-#parent_div{
+
+#parent_div {
     display: flex;
 }
 
-.box1 p{
+.box1 p {
     margin: 10px;
     padding: 10px;
     text-align: center;
+
+}
+
+
+.box2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    overflow: auto;
+
+}
+
+.box2 div img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
     
 }
 
+.box2 div{
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+
+
+btn1{
+    background-color: aqua;
+    color: beige;
+}

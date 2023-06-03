@@ -13,10 +13,10 @@ const display = (data) => {
     console.log(data);
     data.map((e) => {
         let img = document.createElement("img")
-        img.src = e.images[1]
-        let title = document.createElement("h1")
+        img.src = e.thumbnail
+        let title = document.createElement("h3")
         title.innerHTML = e.title
-        let price = document.createElement("h2")
+        let price = document.createElement("h4")
         price.innerHTML = e.price
         let brand = document.createElement("button")
         brand.innerHTML = e.brand

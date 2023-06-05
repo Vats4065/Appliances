@@ -32,5 +32,6 @@ const display = (data) => {
         let div = document.createElement("div")
         div.append(img, title, price, brand, category, rating, btn1, btn2)
         document.querySelector(".box2").append(div)
+        
     })
 }

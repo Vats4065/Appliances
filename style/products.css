@@ -4,10 +4,16 @@
     border: 1px solid black;
 }
 
+.box1 p{
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
 .box2 {
     width: 80%;
     height: 100vh;
     border: 1px solid black;
+    
 }
 
 #parent_div {
@@ -22,6 +28,10 @@
 }
 
 
+div {
+    transition: all 0.5s;
+}
+
 .box2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -30,20 +40,18 @@
 
 }
 
-.box2 div img {
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
-    
-}
-
-.box2 div{
+.box2 div {
     border: 1px solid gray;
     padding: 5px 10px;
 }
 
 
-btn1{
+btn1 {
     background-color: aqua;
     color: beige;
+}
+
+.img {
+    width: 300px;
+    height: 250px;
 }
